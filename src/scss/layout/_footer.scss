@@ -1,0 +1,19 @@
+.footer {
+  margin: 5rem 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .contenedor-footer {
+    width: 75rem;
+    p {
+      padding: 1rem 2rem;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: $gris-dark;
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+}

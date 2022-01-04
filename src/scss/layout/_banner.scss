@@ -1,0 +1,60 @@
+.banner {
+  background: url(../img/fondo-slider.png);
+  max-width: 100%;
+  height: 40rem;
+  border-top: 5px solid $gris;
+}
+
+.banner-img {
+  background: url(../img/banner.png) left no-repeat;
+  max-width: 100%;
+  display: flex;
+  height: 40rem;
+  position: relative;
+}
+
+.banner-description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  align-items: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 1rem;
+  text-align: right;
+  p {
+    color: $white;
+    font-size: 5rem;
+    line-height: 4rem;
+    .dollar {
+      font-weight: $bold;
+      font-size: 10rem;
+      @include tablet {
+        font-size: 5rem;
+      }
+    }
+    span {
+      font-size: 3rem;
+      @include tablet {
+        font-size: 2rem;
+      }
+    }
+    @include tablet {
+      font-size: 2.8rem;
+    }
+  }
+  .btn {
+    margin: 4rem 0;
+  }
+  span {
+    text-align: right;
+    color: $white;
+    font-weight: $delgada;
+    width: 22rem;
+    line-height: 1.8rem;
+  }
+}
